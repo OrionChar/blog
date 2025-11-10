@@ -1,5 +1,5 @@
 <template>
-    <router-link class="site-name" to="/"><h1 >ikakprosto.ru</h1></router-link>
+    <router-link class="site-name" to="/"><h1 >blog.ru</h1></router-link>
 </template>
 
 <style lang="scss">

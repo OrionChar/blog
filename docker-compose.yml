@@ -1,11 +1,11 @@
 version: '3.5'
 services:
-  ikakprosto:
+  blog:
     image: node:20-alpine3.19
-    container_name: ikakprosto
-    working_dir: /usr/src/ikakprosto
+    container_name: blog
+    working_dir: /usr/src/blog
     ports:
       - 8080:8080
     command: npm run dev
     volumes:
-      - ./:/usr/src/ikakprosto
+      - ./:/usr/src/blog

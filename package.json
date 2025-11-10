@@ -1,12 +1,12 @@
 {
-  "name": "ikakprosto.ru",
+  "name": "blog",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "deploy-github": "gh-pages -d dist --repo git@github.com:father-lox/ikakprosto.git",
+    "deploy-github": "gh-pages -d dist --repo git@github.com:orionchar/blog.git",
     "preview": "vite preview"
   },
   "dependencies": {
